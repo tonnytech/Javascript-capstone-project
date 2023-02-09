@@ -62,12 +62,13 @@
   width: 8px;
 }
 
-.Reserve_and_comment_wrapper{
+.Reserve_and_comment_wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 .Reserve_and_comment {
   margin-top: 5px;
   border: 1px solid black;
