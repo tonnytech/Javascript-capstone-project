@@ -161,38 +161,37 @@
 }
 
 .add-comment {
-    margin-top: 10px;
-    width: 500px;
+  margin-top: 10px;
+  width: 500px;
 }
 
 .add-comment > h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .comment-form {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 10px;
 }
 
 .name-input {
-    width: 200px;
-    padding: 10px;
+  width: 200px;
+  padding: 10px;
 }
 
 .comment-input {
-    width: 250px;
-    padding: 10px;
+  width: 250px;
+  padding: 10px;
 }
 
 .comment-button {
-    padding: 10px;
-    width: 100px;
+  padding: 10px;
+  width: 100px;
 }
 
 footer {
   padding: 30px 20px;
   border-top: 2px solid black;
 }
-
