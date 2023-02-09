@@ -26,7 +26,7 @@ const generateMovie = (movieData) => {
   nameAndLike.append(Likes);
   mainDiv.appendChild(nameAndLike);
 
-  const ReservationAndComment = CreateElement('div', '', 'like_and_comment');
+  const ReservationAndComment = CreateElement('div', '', 'Reserve_and_comment_wrapper');
   const reservation = CreateElement('div', 'Reserve', 'Reserve_and_comment');
   ReservationAndComment.appendChild(reservation);
 
