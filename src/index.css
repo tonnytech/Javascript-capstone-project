@@ -46,7 +46,7 @@
   width: 15rem;
   border-radius: 1%;
   background-size: contain;
-  box-shadow: 15px 0 15px 0 rgba(0,0,0,.8);
+  box-shadow: 15px 0 15px 0 rgba(0, 0, 0, 0.8);
 }
 
 .name-and-like {
@@ -60,12 +60,9 @@
 .likeCount {
   width: 8px;
 }
+
 .Reserve_and_comment {
   margin-top: 5px;
   border: 1px solid black;
   width: 100%;
-}
-
-.movie-wrapper {
-  display: flex;
 }
