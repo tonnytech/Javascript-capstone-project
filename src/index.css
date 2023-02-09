@@ -190,3 +190,9 @@
     padding: 10px;
     width: 100px;
 }
+
+footer {
+  padding: 30px 20px;
+  border-top: 2px solid black;
+}
+
