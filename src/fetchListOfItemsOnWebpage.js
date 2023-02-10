@@ -1,7 +1,5 @@
 import commentsPopup from './commentsPopup.js';
-import { addComments } from './modules/commentsApi.js';
-import displayComments from './modules/displayComments.js';
-// const movieName = document.getElementById('movieName');
+
 const movieDisplaySection = document.querySelector('.movie-display');
 
 const CreateElement = (ele, content, myClass) => {
