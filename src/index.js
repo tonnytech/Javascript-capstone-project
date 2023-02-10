@@ -4,4 +4,3 @@ import getLikes from './addNewLike.js';
 
 searchMovie();
 getLikes();
-
