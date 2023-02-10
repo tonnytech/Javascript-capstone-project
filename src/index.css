@@ -34,6 +34,12 @@
   align-items: center;
 }
 
+.movieLikes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .movie-wrapper {
   display: flex;
   flex-direction: column;
@@ -75,4 +81,20 @@
   width: 100%;
   padding-left: 100%;
   padding-right: 100%;
+  cursor: pointer;
+}
+
+.icon-heart {
+  color: grey;
+}
+
+.Reserve_and_comment:hover {
+ background-color: crimson;
+ color: #FFF;
+}
+
+.icon-heart:hover {
+  color: crimson;
+  overflow: hidden;
+  font-size: 20px;
 }
