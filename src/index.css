@@ -127,6 +127,10 @@
   justify-content: center;
 }
 
+.movie-id {
+  display: none;
+}
+
 .popup-list {
   display: flex;
   flex-wrap: wrap;
