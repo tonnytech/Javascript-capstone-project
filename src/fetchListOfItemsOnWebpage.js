@@ -1,3 +1,4 @@
+import commentsPopup from './commentsPopup.js';
 // const movieName = document.getElementById('movieName');
 import createNewLike from './addNewLike.js';
 import getApiResponse from './ResponseFromApi.js';
@@ -60,8 +61,16 @@ const searchMovie = async () => {
     .then((array) => array.forEach((object) => {
       const moviesToDisplay = generateMovie(object);
       movieDisplaySection.appendChild(moviesToDisplay);
+      const commentButtons = document.querySelectorAll('.Reserve_and_comment');
+      const newCommentButtons = commentButtons[commentButtons.length - 1];
+      newCommentButtons.addEventListener('click', () => {
+        commentsPopup(object);
+        const popWindow = document.querySelector('.comments-popup');
+        popWindow.classList.add('comments-popup-toggle');
+      });
     }));
-  return searchedMovie;
+  const movie = searchedMovie;
+  return movie;
 };
 
 export default searchMovie;
