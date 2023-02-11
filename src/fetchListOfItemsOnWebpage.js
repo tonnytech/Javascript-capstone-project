@@ -60,6 +60,8 @@ const searchMovie = async () => {
     .then((array) => array.forEach((object) => {
       const moviesToDisplay = generateMovie(object);
       movieDisplaySection.appendChild(moviesToDisplay);
+      const displayCount = document.querySelector('.item-count');
+      displayCount.innerHTML = `Movies (${array.length})`;
       const commentButtons = document.querySelectorAll('.Reserve_and_comment');
       const newCommentButtons = commentButtons[commentButtons.length - 1];
       newCommentButtons.addEventListener('click', () => {
