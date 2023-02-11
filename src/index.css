@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding-right: 4rem;
+  padding-left: 2.5rem;
+  margin-right: 4rem;
+  margin-left: 2.5rem;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border: 1px solid black;
+  font-size: 22px;
+}
+
+.nav-list-elements {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.movie-display {
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.movieLikes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 28%;
+}
+
+.image-container {
+  border: 3px solid black;
+  height: 30rem;
+  width: 15rem;
+  border-radius: 1%;
+  background-size: contain;
+  box-shadow: 15px 0 15px 0 rgba(0, 0, 0, 0.8);
+}
+
+.name-and-like {
+  display: flex;
+  gap: 8rem;
+  align-items: center;
+  margin-top: 10px;
+  font-weight: 900;
+}
+
+.likeCount {
+  width: 8px;
+}
+
+.Reserve_and_comment_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Reserve_and_comment {
+  margin-top: 5px;
+  border: 1px solid black;
+  width: 100%;
+  padding-left: 100%;
+  padding-right: 100%;
+  cursor: pointer;
+}
+
+.icon-heart {
+  color: grey;
+}
+
+.Reserve_and_comment:hover {
+  background-color: crimson;
+  color: #fff;
+}
+
+.icon-heart:hover {
+  color: crimson;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.comments-popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 95%;
+  overflow: hidden;
+  overflow-y: auto;
+  margin-left: -100%;
+}
+
+.comments-popup-toggle {
+  margin-left: 25px;
+}
+
+.popup-window {
+  border: 1px solid black;
+  min-height: 90vh;
+  margin: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #d3d3d3;
+  border-radius: 10px;
+}
+
+.popup-image {
+  display: flex;
+  gap: 20px;
+}
+
+.movie-pop-image {
+  width: 300px;
+  height: 150px;
+  justify-self: center;
+}
+
+.popup-image > span {
+  font-size: 50px;
+}
+
+.popup-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-id {
+  display: none;
+}
+
+.popup-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 10px;
+  max-width: 500px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.popup-list > li {
+  width: 40%;
+  font-size: 18px;
+}
+
+.comments-section {
+  margin-top: 20px;
+  width: 500px;
+}
+
+.all-comments > h3 {
+  text-align: center;
+}
+
+.comment-text {
+  margin-top: 20px;
+}
+
+.comment-text > p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.add-comment {
+  margin-top: 10px;
+  width: 500px;
+}
+
+.add-comment > h3 {
+  text-align: center;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.name-input {
+  width: 200px;
+  padding: 10px;
+}
+
+.comment-input {
+  width: 250px;
+  padding: 10px;
+}
+
+.comment-button {
+  padding: 10px;
+  width: 100px;
+}
+
+footer {
+  padding: 30px 20px;
+  border-top: 2px solid black;
+}
