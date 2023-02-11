@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h3><b>Leader board setup</b></h3>
+  <h3><b>Javascript capstone project </b></h3>
 
 </div>
 
