@@ -16,6 +16,7 @@
   margin-top: 1rem;
   padding-bottom: 1rem;
   border: 1px solid black;
+  font-size: 22px;
 }
 
 .nav-list-elements {
@@ -34,11 +35,18 @@
   align-items: center;
 }
 
+.movieLikes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .movie-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 28%;
 }
 
 .image-container {
@@ -75,6 +83,22 @@
   width: 100%;
   padding-left: 100%;
   padding-right: 100%;
+  cursor: pointer;
+}
+
+.icon-heart {
+  color: grey;
+}
+
+.Reserve_and_comment:hover {
+  background-color: crimson;
+  color: #fff;
+}
+
+.icon-heart:hover {
+  color: crimson;
+  overflow: hidden;
+  font-size: 20px;
 }
 
 .comments-popup {

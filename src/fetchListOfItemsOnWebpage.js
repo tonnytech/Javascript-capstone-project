@@ -1,4 +1,6 @@
 import commentsPopup from './commentsPopup.js';
+import createNewLike from './addNewLike.js';
+import getApiResponse from './ResponseFromApi.js';
 
 const movieDisplaySection = document.querySelector('.movie-display');
 
@@ -19,15 +21,27 @@ const generateMovie = (movieData) => {
   const movieName = CreateElement('div', movieData.show.name, 'movieName');
   nameAndLike.append(movieName);
 
-  const Likes = CreateElement(
-    'div',
-    '<i class="icon-heart-empty"></i> <input/ placeholder = "0" class = "likeCount">',
-    'movieLikes',
-  );
-  nameAndLike.append(Likes);
+  const Likes = CreateElement('div', '', 'movieLikes');
+  const likeIcon = CreateElement('i', '', 'icon-heart');
+  Likes.appendChild(likeIcon);
+
+  const likeCount = CreateElement('div', '0', 'likeCount');
+  likeCount.id = movieData.show.id;
+
+  likeIcon.addEventListener('click', () => {
+    createNewLike(likeCount.id);
+    getApiResponse(likeCount.id, likeCount);
+  });
+  getApiResponse(likeCount.id, likeCount);
+  Likes.appendChild(likeCount);
+  nameAndLike.appendChild(Likes);
   mainDiv.appendChild(nameAndLike);
 
-  const ReservationAndComment = CreateElement('div', '', 'Reserve_and_comment_wrapper');
+  const ReservationAndComment = CreateElement(
+    'div',
+    '',
+    'Reserve_and_comment_wrapper',
+  );
   const reservation = CreateElement('div', 'Reserve', 'Reserve_and_comment');
   ReservationAndComment.appendChild(reservation);
 
