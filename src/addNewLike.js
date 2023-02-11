@@ -10,10 +10,6 @@ const createNewLike = async (id) => {
     },
     body: JSON.stringify({ item_id: id }),
   });
-
-  // if (!res.ok && res.status !== 201) {
-  //   return;
-  // }
 };
 
 export default createNewLike;

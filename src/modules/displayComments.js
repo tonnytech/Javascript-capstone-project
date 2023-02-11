@@ -21,7 +21,7 @@ const displayComments = async (itemId) => {
   commentText.innerHTML = '';
   commentsArr.forEach((comment) => {
     const newDisplayComment = document.createElement('p');
-    newDisplayComment.innerHTML = `${comment.creation_date} ${comment.username}: ${comment.comment}`;
+    newDisplayComment.innerHTML = `${comment.creation_date} ${comment.name}: ${comment.comment}`;
     commentText.appendChild(newDisplayComment);
   });
 };

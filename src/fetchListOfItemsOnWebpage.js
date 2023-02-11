@@ -69,24 +69,8 @@ const searchMovie = async () => {
         const popWindow = document.querySelector('.comments-popup');
         popWindow.classList.add('comments-popup-toggle');
       });
-
-      // const userNames = document.querySelectorAll('.name-input');
-      // const userName = userNames[userNames.length - 1];
-      // console.log(newCommentButtons);
-
-      /* const commentTexts = document.querySelectorAll('.comment-input');
-      const commentText = commentTexts[commentTexts.length - 1];
-
-      const submitComments = document.querySelectorAll('.comment-button');
-      const submitComment = submitComments[submitComments.length - 1];
-
-      submitComment.addEventListener('click', async () => {
-        await addComments(object.show.id, userName.value, commentText.value);
-        displayComments(object.show.id);
-      }); */
     }));
-  const movie = searchedMovie;
-  return movie;
+  return searchedMovie;
 };
 
 export default searchMovie;
