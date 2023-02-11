@@ -1,101 +1,130 @@
-# Javascript Group Capstone
 <a name="readme-top"></a>
+
+<div align="center">
+
+  <br/>
+
+  <h3><b>Leader board setup</b></h3>
+
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [🔭 Future Features](#🔭-future-features)
+- [🤝 Contributing](#🤝-contributing)
+- [🙏 Acknowledgments](#🙏-acknowledgments)
+- [📝 License](#📝-license)
 
 
-# 📖 Javascript Capstone <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-**Javascript Capstone** is a project whereby my coding partner and I get to develop a webapp based on the TvMaze Api. The application allows users to view movies, view specific details, and leave a like and a comment. The user can also see all other comments and likes given to the specific movie. While developing this webapp, We use the right gitflow as well as a Kanban board to help us manage our tasks.
+# 📖 Leader board setup <a name="about-project"></a>
+
+This project that has the leader board setup in it.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+  - HTML
+  - CSS
+  - JavaScript
+  - webpack
+  - Tv maze API
+  - Involvement API
 
-<details>
-  <summary>HTML</summary>
-  <ul>
-    <li><a href="https://html.com/">html.com</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>CSS</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Javascript</summary>
-  <ul>
-    <li><a href="https://www.javascript.com/">Javascript</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Webpack</summary>
-  <ul>
-    <li><a href="https://webpack.js.org/">Webpack</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>TvMazeApi</summary>
-  <ul>
-    <li><a href="https://www.tvmaze.com/api">TvMaze</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>InvolvementApi</summary>
-  <ul>
-    <li><a href="https://www.notion.so/Involvement-API-869e60b5ad104603aa6db59e08150270">InvolvementApi</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- **Detailed movies information**
-- **Feature to add likes**
-- **Feature to add comments**
+  ### Key FeaturesDetailed 
+  - movies information
+  - Feature to add likes
+  - Feature to add comments
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+## Link to the presentation
+https://drive.google.com/file/d/1rOWEuAJ3eaGy9YEkhLcNC86h_jbWOxR_/view?usp=sharing
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-Click on the link to view the LeaderBoard website.
-
-- [Coming Soon]()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+ <a href="https://teitonny.github.io/Leaderboard_website/dist/"> comming soon </a>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps:
--Install visual studio code or any text editor of your choice.
--clone the repository to your local machine.
--run it using npm start
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need visual studio code or any text editor of your choice
+- IDE(code editor) like: **Vscode**, **Sublime**, etc. 
+
+- [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
+
+ - [Nodes.js](https://nodejs.org/en/)
+
+ - Github account and github authorization enabled in your local machine
+
+### Setup
+
+1. Clone this repository to your desired folder
+
+```
+git clone https://github.com/teitonny/Javascript-capstone-project.git
+cd Javascript-capstone-project
+```
+
+
+### Install
+
+> Install this project with:
+
+```
+npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+#### Dev Server
+```sh
+    npm run serve
+```
+#### Build
+```
+npm run build
+
+```
+
+### Run tests
+
+To run tests, run the following command:
+```sh
+  npm test or npm run test
+ ```
+
+### Deployment
+
+This project is not deployed yet
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,20 +132,27 @@ In order to run this project you need visual studio code or any text editor of y
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Fene-87**
-
-- GitHub: [@Fene-87](https://github.com/Fene-87)
-- LinkedIn: [Mark Fenekayas](https://www.linkedin.com/in/mark-fenekayas-67378220b/)
-
-👤 **teitonny**
-
+1. Tonny Tei
 - GitHub: [@teitonny](https://github.com/teitonny)
-- LinkedIn: [Tonny Tei]()
+- Twitter: [@tonnytei](https://twitter.com/tonnytei)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tonny-tei-38a4771a0/)
 
+2. Mark Fenekayas
+- GitHub: [@Fene - 87](https://github.com/Fene-87)
+- Twitter: [@Fene - 87](https://twitter)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Implement a search input field**
+- [ ] **make it responsive**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -124,29 +160,26 @@ In order to run this project you need visual studio code or any text editor of y
 
 Contributions, issues, and feature requests are welcome!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-
-If you like this project kindly show your support or make a contribution to it.
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support
+
+If you like this project please STAR the project repo.
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the entire microverse community for helping us out with this project.
+I would like to thank Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
+<!-- FAQ (optional) -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
