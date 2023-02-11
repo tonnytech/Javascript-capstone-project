@@ -16,6 +16,7 @@
   margin-top: 1rem;
   padding-bottom: 1rem;
   border: 1px solid black;
+  font-size: 22px;
 }
 
 .nav-list-elements {
@@ -45,6 +46,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 28%;
 }
 
 .image-container {

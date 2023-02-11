@@ -1,5 +1,4 @@
 import commentsPopup from './commentsPopup.js';
-
 import createNewLike from './addNewLike.js';
 import getApiResponse from './ResponseFromApi.js';
 
