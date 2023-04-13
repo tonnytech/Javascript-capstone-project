@@ -58,7 +58,7 @@ This project that has the leader board setup in it.
 https://drive.google.com/file/d/1rOWEuAJ3eaGy9YEkhLcNC86h_jbWOxR_/view?usp=sharing
 
 ## 🚀 Live Demo <a name="live-demo"></a>
- <a href="https://teitonny.github.io/Leaderboard_website/dist/"> comming soon </a>
+ [comming soon](https://tonnytech.github.io/Javascript-capstone-project/dist/)
 
 <!-- GETTING STARTED -->
 
